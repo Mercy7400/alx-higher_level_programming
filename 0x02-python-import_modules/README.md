@@ -1,1 +1,1 @@
-0x02. Python - import & modules
+This folder contains files for the python modules and import exercise
