@@ -1,6 +1,7 @@
 #!/usr/bin/python3
-print("01", end=", ")
-for i in range(1, 9):
-    for j in range(i + 1, 10):
-        pint("{:d}{:d}".format(i, j), end=", ")
-print("\n")
+for x in range(0, 10):
+    for y in range(x + 1, 10):
+        if x == 8 and y == 9:
+            print('89')
+        else:
+            print('{}{}, '.format(x, y), end='')
